@@ -1,0 +1,15 @@
+{application, cowsay, [
+    {description, "A basic erlang/cowboy starter"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {cowsay_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        cowboy
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["0BSD"]},
+    {links, []}
+]}.
